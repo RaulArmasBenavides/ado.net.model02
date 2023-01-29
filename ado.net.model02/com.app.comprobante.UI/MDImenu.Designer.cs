@@ -44,6 +44,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.archivosToolStripMenuItem,
             this.spMenu,
@@ -52,7 +53,8 @@
             this.salirToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(836, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1115, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -65,33 +67,33 @@
             this.salirToolStripMenuItem});
             this.archivosToolStripMenuItem.Image = global::proysustiCliente.Properties.Resources.view_icon;
             this.archivosToolStripMenuItem.Name = "archivosToolStripMenuItem";
-            this.archivosToolStripMenuItem.Size = new System.Drawing.Size(90, 20);
+            this.archivosToolStripMenuItem.Size = new System.Drawing.Size(113, 24);
             this.archivosToolStripMenuItem.Text = "USUARIOS";
             this.archivosToolStripMenuItem.Click += new System.EventHandler(this.archivosToolStripMenuItem_Click);
             // 
             // stripEmpleados
             // 
             this.stripEmpleados.Name = "stripEmpleados";
-            this.stripEmpleados.Size = new System.Drawing.Size(245, 22);
+            this.stripEmpleados.Size = new System.Drawing.Size(307, 26);
             this.stripEmpleados.Text = "Mantenedor de Administradores";
             this.stripEmpleados.Click += new System.EventHandler(this.productosToolStripMenuItem_Click);
             // 
             // StripClientes
             // 
             this.StripClientes.Name = "StripClientes";
-            this.StripClientes.Size = new System.Drawing.Size(245, 22);
+            this.StripClientes.Size = new System.Drawing.Size(307, 26);
             this.StripClientes.Text = "Mantenedor de Personal";
             this.StripClientes.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(242, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(304, 6);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(307, 26);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -99,7 +101,7 @@
             // 
             this.spMenu.Image = global::proysustiCliente.Properties.Resources.restaurant1;
             this.spMenu.Name = "spMenu";
-            this.spMenu.Size = new System.Drawing.Size(114, 20);
+            this.spMenu.Size = new System.Drawing.Size(141, 24);
             this.spMenu.Text = "Comprobantes";
             this.spMenu.Click += new System.EventHandler(this.docenteToolStripMenuItem_Click);
             // 
@@ -108,7 +110,7 @@
             this.reportesToolStripMenuItem.Checked = true;
             this.reportesToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
-            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
             this.reportesToolStripMenuItem.Text = "Acta";
             this.reportesToolStripMenuItem.Click += new System.EventHandler(this.reportesToolStripMenuItem_Click_1);
             // 
@@ -116,23 +118,24 @@
             // 
             this.ayudaToolStripMenuItem.Image = global::proysustiCliente.Properties.Resources.Help_1;
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
             // salirToolStripMenuItem1
             // 
             this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
-            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(41, 20);
+            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(52, 24);
             this.salirToolStripMenuItem1.Text = "Salir";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label2.Font = new System.Drawing.Font("Arial Unicode MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(0, 442);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(0, 549);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(407, 36);
+            this.label2.Size = new System.Drawing.Size(502, 39);
             this.label2.TabIndex = 4;
             this.label2.Text = "COMPROBANTE DE PAGOS ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -140,17 +143,18 @@
             // 
             // MDImenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.BackgroundImage = global::proysustiCliente.Properties.Resources.lgoo1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(836, 478);
+            this.ClientSize = new System.Drawing.Size(1115, 588);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.menuStrip1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MDImenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "::COMPROBANTE DE PAGO 1.4.0::";
